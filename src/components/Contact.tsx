@@ -1,6 +1,7 @@
 import { useState, useRef, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
+import { GitHubIcon, Linkedin } from "../assets/icons";
 
 export const Contact = () => {
 	const [isHovered, setIsHovered] = useState(false);
@@ -122,6 +123,16 @@ export const Contact = () => {
 								<div className="md:w-2/3"></div>
 							</div>
 						</form>
+					</div>
+					<div className="mx-auto  p-3 gap-x-20 gap-y-6 flex justify-center">
+					<a className="flex items-center w-20 h-20" href="https://github.com/Kyriokes">
+						<GitHubIcon x={20} y={20}/>
+						
+					</a>
+					<a className="flex items-center" href="https://www.linkedin.com/in/sergiofb/">
+						<Linkedin/>
+						
+					</a>
 					</div>
 				</div>
 			</div>

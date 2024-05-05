@@ -14,7 +14,7 @@ function App() {
 	return (
 		<div className="bg-cBlack w-screen h-full flex flex-col mt-[40px]">
 			<NavBar />
-			<div className="flex flex-col items-center justify-center text-cPlatinum flex-grow p-4 max-w-[400px] mx-auto lg:max-w-[70%] lg:gap-20">
+			<div className="flex flex-col items-center justify-center text-cPlatinum flex-grow p-4 max-w-full mx-auto lg:max-w-[70%] lg:gap-20">
 				<div className="relative w-full my-10">
 					<div className="absolute -inset-1 bg-gradient-to-b from-cGreen to-cTeal blur-2xl opacity-75"></div>
 					<div id="vid" className="relative pb-2 my-10">
