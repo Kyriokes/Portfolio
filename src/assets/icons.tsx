@@ -262,7 +262,6 @@ export function GitHubIcon({ x = 8, y = 8 }: { x?: number; y?: number }) {
 	);
 }
 
-
 export function NPMIcon() {
 	return (
 		<img

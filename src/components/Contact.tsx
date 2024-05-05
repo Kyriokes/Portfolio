@@ -117,17 +117,17 @@ export const Contact = () => {
 										onMouseOver={() => setIsHovered(true)}
 										onMouseLeave={() => setIsHovered(false)}
 									>
-										Send
+										Enviar
 									</button>
 								</div>
 								<div className="md:w-2/3"></div>
 							</div>
 						</form>
 					</div>
+					<h2 className="text-xl font-bold text-center"> Mis Redes </h2>
 					<div className="mx-auto  p-3 gap-x-20 gap-y-6 flex justify-center">
 					<a className="flex items-center w-20 h-20" href="https://github.com/Kyriokes">
 						<GitHubIcon x={20} y={20}/>
-						
 					</a>
 					<a className="flex items-center" href="https://www.linkedin.com/in/sergiofb/">
 						<Linkedin/>
