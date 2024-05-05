@@ -126,10 +126,10 @@ export const Contact = () => {
 					</div>
 					<h2 className="text-xl font-bold text-center"> Mis Redes </h2>
 					<div className="mx-auto  p-3 gap-x-20 gap-y-6 flex justify-center">
-					<a className="flex items-center w-20 h-20" href="https://github.com/Kyriokes">
+					<a className="flex items-center w-20 h-20" href="https://github.com/Kyriokes" target="_blank">
 						<GitHubIcon x={20} y={20}/>
 					</a>
-					<a className="flex items-center" href="https://www.linkedin.com/in/sergiofb/">
+					<a className="flex items-center" href="https://www.linkedin.com/in/sergiofb/" target="_blank">
 						<Linkedin/>
 						
 					</a>
