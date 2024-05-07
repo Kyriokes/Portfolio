@@ -19,9 +19,9 @@ function App() {
 					<div className="absolute -inset-1 bg-gradient-to-b from-cGreen to-cTeal blur-2xl opacity-75"></div>
 					<div id="vid" className="relative pb-2 my-10">
 						<div className="w-full flex items-center">
-							<h1 className="text-xl text-center  align-text-bottom font-bold m-1 lg:text-6xl">
+							<h2 className="text-xl text-center  align-text-bottom font-bold m-1 lg:text-6xl">
 								¡Hola Mundo!
-							</h1>
+							</h2>
 						</div>
 						<div className=" m-0.5">
 							<iframe
@@ -42,9 +42,9 @@ function App() {
 					<div className="absolute -inset-1 bg-gradient-to-b from-cGreen to-cTeal blur-2xl opacity-75"></div>
 					<div id="epi" className="relative pb-2 my-10">
 						<div className="w-fit flex items-center">
-							<h1 className="text-xl text-center  align-text-bottom font-bold m-1 lg:text-6xl">
+							<h2 className="text-xl text-center  align-text-bottom font-bold m-1 lg:text-6xl">
 								Epígrafe
-							</h1>
+							</h2>
 						</div>
 						<p className=" m-1">
 							Aca va por escrito lo que digo en el video!
@@ -65,9 +65,9 @@ function App() {
 					<div className="absolute -inset-1 bg-gradient-to-b from-cGreen to-cTeal blur-2xl opacity-75"></div>
 					<div id="pro" className="relative pb-2 my-10">
 						<div className="w-fit flex items-center">
-							<h1 className="text-xl text-center  align-text-bottom font-bold m-1 lg:text-6xl">
+							<h2 className="text-xl text-center  align-text-bottom font-bold m-1 lg:text-6xl">
 								Proyectos
-							</h1>
+							</h2>
 						</div>
 						<p>_</p>
 					</div>
@@ -77,9 +77,9 @@ function App() {
 					<div className="absolute -inset-1 bg-gradient-to-b from-cGreen to-cTeal blur-2xl opacity-75"></div>
 					<div id="cap" className="relative pb-2 my-10">
 						<div className="w-fit flex items-center">
-							<h1 className="text-xl text-center  align-text-bottom font-bold m-1 lg:text-6xl">
+							<h2 className="text-xl text-center  align-text-bottom font-bold m-1 lg:text-6xl">
 								Mis Capacidades
-							</h1>
+							</h2>
 						</div>
 						<Skills />
 					</div>
@@ -89,9 +89,9 @@ function App() {
 					<div className="absolute -inset-1 bg-gradient-to-b from-cGreen to-cTeal blur-2xl opacity-75"></div>
 					<div id="cv" className="relative pb-2 my-10">
 						<div className=" selection:items-center">
-							<h1 className="text-xl text-center flex flex-wrap align-text-bottom font-bold m-1 lg:text-6xl">
+							<h2 className="text-xl text-center flex flex-wrap align-text-bottom font-bold m-1 lg:text-6xl">
 								Currículum
-							</h1>
+							</h2>
 							<div>
 								<Pdf></Pdf>
 							</div>

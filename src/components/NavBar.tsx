@@ -38,25 +38,25 @@ export const NavBar = () => {
 					{/* Menú de navegación desplegable */}
 					{menuOpen && (
 						<div className="absolute top-full left-0 p-2 bg-cTeal border border-cPlatinum shadow-lg py-2 rounded">
-							<div className="text-cPlatinum text-sm m-2 flex flex-row justify-evenly gap-2">
-								<div className="w-8">
+							<div className="text-cPlatinum text-sm my-2 flex justify-between	 gap-2">
+								<div className="hover:bg-cGreen hover:text-cBlack border-cPlatinum border-2 rounded ring ring-cPlatinum ring-opacity-30 px-2">
 									<img
 										src={spn}
 										alt="Español"
-										
+										className="w-8"
 									/>
 								</div>
-								<div className="w-8">
+								<div className="hover:bg-cGreen hover:text-cBlack border-cPlatinum border-2 rounded ring ring-cPlatinum ring-opacity-30 px-2">
 									<img
 										src={uk}
 										alt="English"
-										
+										className="w-8"
 									/>
 								</div>
 							</div>
 
-							<ul className="text-cPlatinum text-sm">
-								<li className="hover:bg-cGreen hover:text-cBlack">
+							<ul className="text-cPlatinum text-sm text-center grid grid-rows-6 gap-y-2">
+								<li className="hover:bg-cGreen hover:text-cBlack border-cPlatinum border-2 rounded ring ring-cPlatinum ring-opacity-30 w-[120px]">
 									<a
 										href="#vid"
 										onClick={(e) =>
@@ -66,7 +66,7 @@ export const NavBar = () => {
 										¡Hola Mundo!
 									</a>
 								</li>
-								<li className="hover:bg-cGreen hover:text-cBlack">
+								<li className="hover:bg-cGreen hover:text-cBlack border-cPlatinum border-2 rounded ring ring-cPlatinum ring-opacity-30 w-[120px]">
 									<a
 										href="#epi"
 										onClick={(e) =>
@@ -76,7 +76,7 @@ export const NavBar = () => {
 										Epígrafe
 									</a>
 								</li>
-								<li className="hover:bg-cGreen hover:text-cBlack">
+								<li className="hover:bg-cGreen hover:text-cBlack border-cPlatinum border-2 rounded ring ring-cPlatinum ring-opacity-30 w-[120px]">
 									<a
 										href="#pro"
 										onClick={(e) =>
@@ -86,7 +86,7 @@ export const NavBar = () => {
 										Proyectos
 									</a>
 								</li>
-								<li className="hover:bg-cGreen hover:text-cBlack w-[120px]">
+								<li className="hover:bg-cGreen hover:text-cBlack border-cPlatinum border-2 rounded ring ring-cPlatinum ring-opacity-30 w-[120px]">
 									<a
 										href="#cap"
 										onClick={(e) =>
@@ -96,7 +96,7 @@ export const NavBar = () => {
 										Mis Capacidades
 									</a>
 								</li>
-								<li className="hover:bg-cGreen hover:text-cBlack">
+								<li className="hover:bg-cGreen hover:text-cBlack border-cPlatinum border-2 rounded ring ring-cPlatinum ring-opacity-30 w-[120px]">
 									<a
 										href="#cv"
 										onClick={(e) =>
@@ -106,7 +106,7 @@ export const NavBar = () => {
 										Currículum
 									</a>
 								</li>
-								<li className="hover:bg-cGreen hover:text-cBlack">
+								<li className="hover:bg-cGreen hover:text-cBlack border-cPlatinum border-2 rounded ring ring-cPlatinum ring-opacity-30 w-[120px]">
 									<a
 										href="#con"
 										onClick={(e) =>
@@ -120,9 +120,8 @@ export const NavBar = () => {
 						</div>
 					)}
 				</div>
-				<div className="text-cPlatinum w-full text-center lg:text-5xl">
-					{/* Título de la página */}
-					Sergio Ferrari Bryce
+				<div className="text-cPlatinum w-full text-center text-xl lg:text-5xl">
+					<h1>Sergio Ferrari Bryce</h1>
 				</div>
 			</div>
 		</div>
