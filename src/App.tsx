@@ -4,6 +4,7 @@ import { NavBar } from "./components/NavBar";
 import { Contact } from "./components/Contact";
 import { Pdf } from "./components/Pdf";
 import { pdfjs } from 'react-pdf';
+import { Proyects } from "./components/Proyects"
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -69,7 +70,7 @@ function App() {
 								Proyectos
 							</h2>
 						</div>
-						<p>_</p>
+						<p><Proyects/></p>
 					</div>
 				</div>
 
