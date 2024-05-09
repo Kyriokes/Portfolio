@@ -42,7 +42,9 @@ function App() {
 				<div className="relative w-full my-10">
 					<div className="absolute -inset-1 bg-gradient-to-b from-cGreen to-cTeal blur-2xl opacity-75"></div>
 					<div id="epi" className="relative pb-2 my-10">
+						
 						<div className="w-fit flex items-center">
+							
 							<h2 className="text-xl text-center  align-text-bottom font-bold m-1 lg:text-6xl">
 								Epígrafe
 							</h2>
@@ -105,6 +107,7 @@ function App() {
 				</div>
 			</div>
 		</div>
+		
 	);
 }
 
