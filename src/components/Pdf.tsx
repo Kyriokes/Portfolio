@@ -38,7 +38,7 @@ export const Pdf = () => {
 					renderAnnotationLayer={false}
 				/>
 			</Document>
-			<div className="flex my-1">
+			<div className="flex flex-wrap my-1">
 				<button
 					className="m-1 shadow bg-cTeal hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
 					onClick={goToPreviousPage}
@@ -57,7 +57,7 @@ export const Pdf = () => {
 					className="m-1 shadow bg-cTeal hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
 					onClick={openPdfInNewWindow}
 				>
-					Nueva ventana
+					Abrir CV
 				</button>
 			</div>
 		</div>

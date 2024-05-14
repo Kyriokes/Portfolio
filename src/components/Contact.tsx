@@ -1,7 +1,7 @@
 import { useState, useRef, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
-import { GitHubIcon, Linkedin } from "../assets/icons";
+import { GitHubIcon, Linkedin , WhatsApp } from "../assets/icons";
 
 export const Contact = () => {
 	const [isHovered, setIsHovered] = useState(false);
@@ -52,7 +52,7 @@ export const Contact = () => {
 				<div className="relative group pb-2 my-10">
 					<div className="w-fit flex items-center">
 						<h1 className="text-xl text-center  align-text-bottom font-bold m-1 lg:text-6xl">
-							Contáctame
+							Contáctame a Ferrari8986@gmail.com
 						</h1>
 					</div>
 					<div className="m-1">
@@ -125,13 +125,15 @@ export const Contact = () => {
 						</form>
 					</div>
 					<h2 className="text-xl font-bold text-center"> Mis Redes </h2>
-					<div className="mx-auto  p-3 gap-x-20 gap-y-6 flex justify-center">
+					<div className="mx-auto  p-3 gap-x-20 gap-y-6 flex flex-wrap justify-center">
 					<a className="flex items-center w-20 h-20" href="https://github.com/Kyriokes" target="_blank">
 						<GitHubIcon x={20} y={20}/>
 					</a>
-					<a className="flex items-center" href="https://www.linkedin.com/in/sergiofb/" target="_blank">
-						<Linkedin/>
-						
+					<a className="flex items-center w-20 h-20" href="https://www.linkedin.com/in/sergiofb/" target="_blank">
+						<Linkedin/>						
+					</a>
+					<a className="flex items-center w-20 h-20" href="https://wa.me/541135040982" target="_blank">
+						<WhatsApp/>						
 					</a>
 					</div>
 				</div>

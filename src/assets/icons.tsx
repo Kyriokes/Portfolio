@@ -138,6 +138,16 @@ export function Linkedin() {
 	);
 }
 
+export function WhatsApp() {
+	return (
+		<img
+			className="h-20 w-20"
+			src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+			alt="WhatsApp"
+		></img>
+	);
+}
+
 export function JavaScriptIcon() {
 	return (
 		<img

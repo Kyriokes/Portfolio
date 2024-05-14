@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { House } from "../assets/icons";
-import uk from "../assets/uk.png";
-import spn from "../assets/spn.png";
+//import uk from "../assets/uk.png";
+//import spn from "../assets/spn.png";
 
 export const NavBar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -38,7 +38,7 @@ export const NavBar = () => {
 					{/* Menú de navegación desplegable */}
 					{menuOpen && (
 						<div className="absolute top-full left-0 p-2 bg-cTeal border border-cPlatinum shadow-lg py-2 rounded">
-							<div className="text-cPlatinum text-sm my-2 flex justify-between	 gap-2">
+							{/*<div className="text-cPlatinum text-sm my-2 flex justify-between	 gap-2">
 								<div className="hover:bg-cGreen hover:text-cBlack border-cPlatinum border-2 rounded ring ring-cPlatinum ring-opacity-30 px-2">
 									<img
 										src={spn}
@@ -53,9 +53,9 @@ export const NavBar = () => {
 										className="w-8"
 									/>
 								</div>
-							</div>
+							</div>*/}
 
-							<ul className="text-cPlatinum text-sm text-center grid grid-rows-6 gap-y-2">
+							<ul className="text-cPlatinum text-sm text-center grid grid-rows-subgrid gap-y-2">
 								<li className="hover:bg-cGreen hover:text-cBlack border-cPlatinum border-2 rounded ring ring-cPlatinum ring-opacity-30 w-[120px]">
 									<a
 										href="#vid"
@@ -66,7 +66,7 @@ export const NavBar = () => {
 										¡Hola Mundo!
 									</a>
 								</li>
-								<li className="hover:bg-cGreen hover:text-cBlack border-cPlatinum border-2 rounded ring ring-cPlatinum ring-opacity-30 w-[120px]">
+								{/*<li className="hover:bg-cGreen hover:text-cBlack border-cPlatinum border-2 rounded ring ring-cPlatinum ring-opacity-30 w-[120px]">
 									<a
 										href="#epi"
 										onClick={(e) =>
@@ -75,7 +75,7 @@ export const NavBar = () => {
 									>
 										Epígrafe
 									</a>
-								</li>
+								</li>*/}
 								<li className="hover:bg-cGreen hover:text-cBlack border-cPlatinum border-2 rounded ring ring-cPlatinum ring-opacity-30 w-[120px]">
 									<a
 										href="#pro"

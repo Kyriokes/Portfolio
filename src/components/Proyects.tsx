@@ -43,19 +43,21 @@ export const Proyects = () => {
 	};
 
 	return (
-		<div>
-			<section
+		<div className="grid grid-rows-subgrid">
+			<div
 				onClick={pokeToggleBox}
-				className="flex place-content-between my-4"
+				className="flex place-content-between mb-4"
 			>
 				<button className="text-xl font-bold text-center">
 					Pokemon
 				</button>
-				<button>{pokeIsVisible ? <ArrowU /> : <ArrowD />}</button>
-			</section>
+				<button className="border">
+					{pokeIsVisible ? <ArrowU /> : <ArrowD />}
+				</button>
+			</div>
 			{pokeIsVisible && (
 				<article>
-					<div className="relative my-2 w-full h-[200%]">
+					<div className="relative mb-4 w-full h-[200%]">
 						<div
 							className="absolute top-0 left-0 w-full h-full z-10 cursor-pointer"
 							onClick={handleClickPoke}
@@ -84,7 +86,7 @@ export const Proyects = () => {
 					</p>
 				</article>
 			)}
-			<div className="flex flex-row">
+			<div className="flex flex-wrap w-fit">
 				<JavaScriptIcon />
 				<PostgreSQLIcon />
 				<ExpressIcon />
@@ -101,16 +103,18 @@ export const Proyects = () => {
 
 			<section
 				onClick={ctToggleBox}
-				className="flex place-content-between my-4"
+				className="flex place-content-between mb-4"
 			>
 				<button className="text-xl font-bold text-center">
 					ChillingTime
 				</button>
-				<button>{ctIsVisible ? <ArrowU /> : <ArrowD />}</button>
+				<button className="border">
+					{ctIsVisible ? <ArrowU /> : <ArrowD />}
+				</button>
 			</section>
 			{ctIsVisible && (
 				<article>
-					<div className="relative my-2 w-full h-[200%]">
+					<div className="relative mb-4 w-full h-[200%]">
 						<div
 							className="absolute top-0 left-0 w-full h-full z-10 cursor-pointer"
 							onClick={handleClickChill}
@@ -130,9 +134,20 @@ export const Proyects = () => {
 							</div>
 						</div>
 					</div>
+					<p className="text-s font-bold text-center">
+						En mi segundo proyecto grupal, contribuí a la primera
+						versión de una página web dedicada a reservas para
+						espacios VIP en aeropuertos. Mi enfoque principal estuvo
+						en el desarrollo del backend, donde trabajé con
+						tecnologías como JavaScript, PostgreSQL, Prisma y
+						Node.js para asegurar un sólido sistema de gestión de
+						reservas y usuarios. Además, colaboré en aspectos del
+						frontend utilizando Next.js, HTML y Tailwind CSS para
+						crear una interfaz de usuario atractiva y funcional.
+					</p>
 				</article>
 			)}
-			<div className="flex flex-row">
+			<div className="flex flex-wrap transform:translate-x-1000 transition-transform w-full">
 				<JavaScriptIcon />
 				<PostgreSQLIcon />
 				<PrismaIcon />
