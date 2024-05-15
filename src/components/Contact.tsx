@@ -1,7 +1,7 @@
 import { useState, useRef, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
-import { GitHubIcon, Linkedin , WhatsApp } from "../assets/icons";
+import { GitHubIcon, Linkedin, WhatsApp } from "../assets/icons";
 
 export const Contact = () => {
 	const [isHovered, setIsHovered] = useState(false);
@@ -43,21 +43,22 @@ export const Contact = () => {
 
 	return (
 		<div>
-			<div className="relative w-full my-10 ">
+			<div className="relative w-full my-10">
 				<div
 					className={`absolute -inset-1 bg-gradient-to-b from-cGreen to-cTeal blur-2xl ${
-						isHovered ? "opacity-100 transition-200":"opacity-75"
+						isHovered ? "opacity-100 transition-200" : "opacity-75"
 					} `}
 				></div>
-				<div className="relative group pb-2 my-10">
-					<div className="w-fit flex items-center">
-						<h1 className="text-xl text-center  align-text-bottom font-bold m-1 lg:text-6xl">
-							Contáctame a Ferrari8986@gmail.com
+				<div className="w-full relative pb-2 my-10">
+					
+						<h1 className="text-4xl text-center mb-4 align-text-bottom font-bold lg:text-6xl">
+							Contáctame
 						</h1>
-					</div>
-					<div className="m-1">
+						<p className="text-center text-2xl my-6">ferrari8986@gmail.com</p>
+					
+					<div className="m-1 w-full flex justify-center">
 						<form
-							className="w-full max-w-lg"
+							className="w-full max-w-lg justify-center"
 							ref={form}
 							onSubmit={sendEmail}
 						>
@@ -124,17 +125,32 @@ export const Contact = () => {
 							</div>
 						</form>
 					</div>
-					<h2 className="text-xl font-bold text-center"> Mis Redes </h2>
+					<h2 className="text-xl font-bold text-center">
+						{" "}
+						Mis Redes{" "}
+					</h2>
 					<div className="mx-auto  p-3 gap-x-20 gap-y-6 flex flex-wrap justify-center">
-					<a className="flex items-center w-20 h-20" href="https://github.com/Kyriokes" target="_blank">
-						<GitHubIcon x={20} y={20}/>
-					</a>
-					<a className="flex items-center w-20 h-20" href="https://www.linkedin.com/in/sergiofb/" target="_blank">
-						<Linkedin/>						
-					</a>
-					<a className="flex items-center w-20 h-20" href="https://wa.me/541135040982" target="_blank">
-						<WhatsApp/>						
-					</a>
+						<a
+							className="flex items-center w-20 h-20"
+							href="https://github.com/Kyriokes"
+							target="_blank"
+						>
+							<GitHubIcon x={20} y={20} />
+						</a>
+						<a
+							className="flex items-center w-20 h-20"
+							href="https://www.linkedin.com/in/sergiofb/"
+							target="_blank"
+						>
+							<Linkedin />
+						</a>
+						<a
+							className="flex items-center w-20 h-20"
+							href={`https://wa.me/5491535040982?text=%C2%A1Hola%20Sergio,%20me%20contacto%20con%20vos%20desde%20tu%20porfolio!%0AMe%20llamo:%0ATe%20contacto%20respecto%20a%20...`}
+							target="_blank"
+						>
+							<WhatsApp />
+						</a>
 					</div>
 				</div>
 			</div>

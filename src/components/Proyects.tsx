@@ -46,7 +46,7 @@ export const Proyects = () => {
 		<div className="grid grid-rows-subgrid">
 			<div
 				onClick={pokeToggleBox}
-				className="flex place-content-between mb-4"
+				className="flex place-content-between mt-10 mb-4"
 			>
 				<button className="text-xl font-bold text-center">
 					Pokemon
@@ -57,7 +57,7 @@ export const Proyects = () => {
 			</div>
 			{pokeIsVisible && (
 				<article>
-					<div className="relative mb-4 w-full h-[200%]">
+					<div className="relative mb-4 w-full">
 						<div
 							className="absolute top-0 left-0 w-full h-full z-10 cursor-pointer"
 							onClick={handleClickPoke}
@@ -77,7 +77,7 @@ export const Proyects = () => {
 							</div>
 						</div>
 					</div>
-					<p className="text-s font-bold text-center">
+					<p className="text-s font-bold text-center mb-4">
 						Mi primer proyecto es una aplicación que permite crear y
 						buscar Pokémon, ofreciendo una experiencia interactiva y
 						divertida. Utilicé una combinación de React y Express,
@@ -103,7 +103,7 @@ export const Proyects = () => {
 
 			<section
 				onClick={ctToggleBox}
-				className="flex place-content-between mb-4"
+				className="flex place-content-between mt-10 mb-4"
 			>
 				<button className="text-xl font-bold text-center">
 					ChillingTime
@@ -114,7 +114,7 @@ export const Proyects = () => {
 			</section>
 			{ctIsVisible && (
 				<article>
-					<div className="relative mb-4 w-full h-[200%]">
+					<div className="relative mb-4 w-full">
 						<div
 							className="absolute top-0 left-0 w-full h-full z-10 cursor-pointer"
 							onClick={handleClickChill}
@@ -134,7 +134,7 @@ export const Proyects = () => {
 							</div>
 						</div>
 					</div>
-					<p className="text-s font-bold text-center">
+					<p className="text-s font-bold text-center mb-4">
 						En mi segundo proyecto grupal, contribuí a la primera
 						versión de una página web dedicada a reservas para
 						espacios VIP en aeropuertos. Mi enfoque principal estuvo
