@@ -83,6 +83,7 @@ export const Proyects = () => {
 						divertida. Utilicé una combinación de React y Express,
 						junto con una base de datos PostgreSQL, para desarrollar
 						esta aplicación desde cero.
+						Cabe aclarar que al estar montado en un servicio gratuito de hosting la experiencia puede resultar un poco lenta
 					</p>
 				</article>
 			)}
